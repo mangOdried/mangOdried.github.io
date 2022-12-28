@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/animate.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 4px;
+            vertical-align: middle;
+            height: auto;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        * {
+            margin: 0 0;
+            padding: 0 0;
+            user-select: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(material/bj3.jpg);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
+        .right {
+            float: left;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="gaodu">
+        <!-- 导航栏开始 -->
+        <div class="navbar">
+            <a href="#" class="log">
+                <div>
+                    <!-- logo图片由div 背景设置 -->
+                </div>
+            </a>
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">公告</a></li>
+                <li><a href="#">留言板</a></li>
+                <li><a href="#">关于本站</a></li>
+            </ul>
+            <div class="search">
+                <input type="text">
+                <button></button>
+            </div>
+        </div>
+    </header><!-- 导航栏结束 -->
+
+    <div id="zy-body">
+        <!-- 主要内容开始 -->
+        <div class="container">
+            <div id="games">
+                <!-- 作品内容开始 -->
+                <div class="playdiagram ">
+                    <!-- 轮播图开始 -->
+                    <ul>
+                        <li><img src="material/show.jpg" alt=""></li>
+                        <li><img src="material/hisui.jpg" alt=""></li>
+                        <li><img src="material/redumbrella.png" alt=""></li>
+                        <li><img src="material/saber.png" alt=""></li>
+
+                    </ul>
+                    <a href="javascript:;" class="arrow1 arrow"></a>
+                    <a href="javascript:;" class="arrow2 arrow"></a>
+                    <ol id="point">
+
+                    </ol>
+                </div>
+                <div class="game2 shadowradius">
+                    <h4>
+                        Mahōtsukai no Yoru <br>『魔法使之夜』
+                    </h4>
+                    <div class="tag-box1">
+                        <span><a href="#">无r18</a></span>
+                        <span><a href="#">2012</a></span>
+                        <span><a href="#">typemoon</a></span>
+                        <span><a href="#"></a></span>
+                    </div>
+                    <a href="#">
+                        <img class="game2-img" src="material/game2.png" alt="">
+                    </a>
+                    <p class="game-text">
+                        1980年代后半，正是繁华与活力的时代的末期。在地方都市三咲町，有传言说「在坡道上的房子里，住着两个魔女...
+                    </p>
+                    <a href="game/Mahōtsukai.html" class="game-button">
+                        点击查看
+                    </a>
+                </div>
+            </div>
+
+            <div class="right">
+                <!-- 登录，文章，排行 -->
+                <div class="setin shadowradius">
+                    <!-- 登入框 -->
+                    <form action="" autocomplete="on">
+                        <div class="setinbox">
+                            <img src="" alt="">
+                            <input class="input " type="text" placeholder="账号">
+                            <!-- 账号栏 -->
+
+                            <img src="" alt="">
+                            <input class="input " type="text" placeholder="密码">
+                            <!-- 密码栏 -->
+                        </div>
+                        <div class="loginbox">
+
+                            <input class="butt" type="submit" name="submit" value="登录">
+
+
+                            <a href="#">注册</a>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="talking shadowradius">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
