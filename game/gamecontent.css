@@ -1,0 +1,165 @@
+.navbar {
+    /* 导航栏整体 */
+    height: 70px;
+    background-color: rgba(34, 101, 112, 0.3);
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+#gao {
+    height: 70px;
+}
+
+.content {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.body {
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 1100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#text {
+    float: left;
+    overflow: hidden;
+}
+
+/* 游戏封面开始 */
+.screen {
+    height: 480px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 4px;
+    box-shadow: 3px 1px 10px 1px rgb(255 255 255 / 50%);
+}
+
+
+.screen img {
+    height: 480px;
+    border-radius: 4px;
+}
+
+/* 游戏封面结束 */
+
+/* 游戏信息开始 */
+.gamename {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.introduction {
+    margin-top: 20px;
+}
+
+.introduction>span {
+    display: block;
+    margin-top: 20px;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-top: 1.5px solid rgb(255, 255, 255, 0.4);
+}
+
+.line-right {
+    width: 50px;
+    height: 20%;
+    border-right: 1.5px solid rgb(255, 255, 255, 0.4);
+}
+
+/* 游戏信息结束 */
+
+/* 剧情简介开始 */
+.synopsis {
+    float: left;
+    margin-top: 10px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#juqing {
+    font-size: 20px;
+    color: rgba(214, 212, 215, 0.95);
+    font-weight: 700;
+    border-bottom: 1px solid rgba(214, 212, 215, 0.6);
+}
+
+/* 剧情简介结束 */
+
+/* 评论区开始 */
+
+
+.com-hd {
+    font-size: 23px;
+    font-weight: 600;
+    color: rgba(214, 212, 215, 0.95);
+}
+
+.com-bd {
+    margin-top: 10px;
+    color: rgba(214, 212, 215, 0.95);
+}
+
+#tab {
+    border-bottom: 1px solid rgba(214, 212, 215, 0.6);
+}
+
+#newcom {
+    font-size: 20px;
+    color: rgba(214, 212, 215, 0.95);
+}
+
+#hotcom {
+    font-size: 20px;
+    color: rgba(214, 212, 215, 0.95);
+}
+
+.com-item {
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+}
+
+.com-word {
+    line-height: 1.5;
+    word-wrap: break-word;
+    border-bottom: 1px solid rgba(214, 212, 215, 0.55);
+}
+
+.com-item>h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.com-time {
+    float: right;
+}
+
+.com-content {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.com-short {
+
+    font-size: 20px;
+}
+
+/* 评论区结束 */

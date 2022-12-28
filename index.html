@@ -1,133 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="js/animate.js"></script>
+    <script src="js/main.js"></script>
     <style>
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 4px;
+            vertical-align: middle;
+            height: auto;
+        }
+
+        li {
+            list-style: none;
+        }
+
         * {
             margin: 0 0;
             padding: 0 0;
+            user-select: none;
+            box-sizing: border-box;
         }
 
         body {
-            background-color: antiquewhite;
+            background-image: url(material/bj3.jpg);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100%;
+            background-attachment: fixed;
         }
 
-        .head {
-            height: 100px;
-        }
-
-        .head span {
-            display: block;
-            margin-top: 10px;
-            text-align: center;
-            font-size: 40px;
-            color: rgb(13, 10, 10);
-        }
-
-        .line {
-            width: 100%;
-            height: 1px;
-            border-top: 1.5px solid rgba(0, 0, 0, 0.4);
-        }
-
-        .publish {
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 1000px;
-
-
-        }
-
-        .publish>h3 {
-            text-align: center;
-            font-size: 26px;
-            font-weight: 600;
-            color: rgb(23, 22, 22, 0.9);
-        }
-
-        p {
-            font-size: 22px;
+        .right {
+            float: left;
         }
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="head">
-        <span>LAST UPDATE:2022.10.9</span>
-    </div>
-    <div class="line"></div>
-    <div>
-        <div class="publish">
-            <p>第一章：活着的意义</p>
-            <p>高速公路上，一辆载满学生的大巴疾驰而过。</p>
-            <p>时至七月，正是高考结束后不久，正江高中一班的学生们，本来自发组织着大家一同出门游玩一趟，班主任得知之后，担心学生们的安全，参与着制定计划，于是本来应该是大家们自发前往，找一个偏僻一点的地方游玩，然后住民宿或者野外露营，在班主任的强烈要求下，学生们只能像老年旅游团一样，抱团出行，到一处最近旅游业开始发展起来的小镇上一起住一段时间。
-            </p>
-            <p>黎洺在车上后座打着盹，腿上的笔记本电脑开始一丝丝朝着旁边滑落，终于，在笔记本电脑的坚持不断努力之下，它脱离了黎洺的手掌心，朝着大巴车上的地面摔去。</p>
-            <p>&ldquo;卧槽！&rdquo;原本迷糊着的黎洺在感受到笔记本电脑脱离自己掌控的一瞬间清醒，慌张地准备伸手抓住。</p>
-            <p>&ldquo;欸嘿~&rdquo;一双手从旁边伸出来，紧紧接住了从黎洺腿上滑落的笔记本电脑，手的主人站起身来，抬起电脑，递还给黎洺，&ldquo;你心也太大了吧？这玩意儿都能让它摔了，幸好老子眼疾手快。&rdquo;
-            </p>
-            <p>脖颈上系了一条红线玉佩的齐耳短发女生，自豪地笑了起来。</p>
-            <p>&ldquo;哎哟，大哥，我真是谢谢你了，嘶&hellip;&hellip;差点出大事。&rdquo;</p>
-            <p>黎洺一边向刘子姬道谢小心翼翼地接过电脑，唤醒屏幕，映入眼帘文档开头赫然写着&ldquo;晋太元中，武陵人捕鱼为业&hellip;&hellip;&rdquo;。</p>
-            <p>匆匆扫过一眼，确认自己的备课文档没有出错之后，黎洺反复点了几次保存，这才关掉电脑，将笔记本放回电脑包，收起来。</p>
-            <p>这段小插曲并没有在大巴引起多大注意，车上地大家要么在闲谈，要么吃着零嘴，还有的同之前黎洺一样，打着盹。</p>
-            <p>&ldquo;我说你小子怎么回事？明明高考都结束了，放了假怎么感觉你整个人比高考备考那段时候还累？&rdquo;刘子姬大大咧咧地坐回自己的座位上，立在扶手上的手臂撑着下巴，饶有兴趣地看着黎洺。</p>
-            <p>路途还长，唠唠嗑也能打发一下时间。</p>
-            <p>黎洺听到刘子姬的话，苦笑着说：&ldquo;这不是我亲戚那边，拜托我帮忙辅导一下她初中女儿的课程嘛&hellip;&hellip;这几天出来玩，回去之后就得继续上课，只能这段时间做一下备课的准备了。&rdquo;黎洺无奈地揉了揉酸涩的眼睛，&ldquo;我算是明白老班每天上课的辛劳了&hellip;&hellip;难怪平常精神状态那么差。&rdquo;
-            </p>
-            <p>&ldquo;我倒是觉得老班她只是单纯脾气不好，这个年纪做班主任来管我们，确实挺为难她的&hellip;&hellip;话说回来，能这么感人？你免费帮忙补课？&rdquo;刘子姬一边说着，一边拖出自己的背包，从里面摸索着拿出一瓶能量饮料丢给黎洺，&ldquo;给，刚好我多带了一瓶。&rdquo;
-            </p>
-            <p>黎洺接住甩过来的饮料，微笑着说道：&ldquo;谢谢姬哥了，&rdquo;伸手拧开瓶口，小啜了一口，&ldquo;那亲戚人还行，给我开工资了，毕竟沾亲带故，意思意思收点差不多了，就是那小姑娘比我想的难教，麻了。&rdquo;
-            </p>
-            <p>&ldquo;我说过好几次了，别特么叫我姬哥，难听死了，你这家伙跟谁学的？&rdquo;刘子姬嗔骂着轻轻踹了黎洺一脚，黎洺尴尬地抓了抓自己凌乱的头发，&ldquo;哈哈哈，抱歉抱歉，下次不敢了，不小心被他们带偏了&hellip;&hellip;&rdquo;
-            </p>
-            <p>黎洺拍了拍被刘子姬踹脏的裤脚，扭过头看着坐在自己后面的正安安静静看手机的男生，假装可怜兮兮地说道：&ldquo;小吴，有没有吃的，我好饿。&rdquo;</p>
-            <p>吴芒收起手机，打开自己书包搜找着，&ldquo;老黎我真是服了你了，之前电话问你要不要带点吃的，你说景区东西肯定比较贵，让我带点，好家伙，自己不带是吧？&rdquo;吴芒吐槽着从包里拿出几个面包，&ldquo;给，拿去垫垫肚子。&rdquo;
-            </p>
-            <p>黎洺笑嘻嘻地接过，&ldquo;谢谢你了，我亲爱的芒果干&hellip;&hellip;呜呜呜，没有你我一个人怎么活啊&hellip;&hellip;&rdquo;</p>
-            <p>&ldquo;走开走开，别恶心兄弟，要发病找姬哥去。&rdquo;吴芒嫌弃地看了一眼黎洺，自己又开始刷起了手机。</p>
-            <p>黎洺也重新坐好，看了看手表，还有三个小时的车程，简单充饥之后，恢复了精神的他又拿出电脑开始备课。</p>
-            <p>&hellip;&hellip;</p>
-            <p>&ldquo;各位乘客们，下一站目的地是：武陵村，请各位要下车的乘客们提前做好准备&hellip;&hellip;&rdquo;</p>
-            <p>黎洺打了个哈欠，听到提示音的他瞟了一眼行程图，没想到路上居然还能遇上一个村子叫武陵村，真是巧了。</p>
-            <p>终点站就在之后几站，久坐之后黎洺的身子也感到一阵酸痛，他看了看电脑上的文档，备课准备的也差不多了，正准备关掉电脑之后站起来舒展一下身体，这时，电脑右下角突然跳出一个弹窗。</p>
-            <p>黎洺以为是电脑跳出来提醒自动更新版本一类的弹窗，下意识想要&ldquo;&times;&rdquo;掉，却发现，这个窗口没有关闭的按钮。</p>
-            <p>&ldquo;嗯？&rdquo;感觉不太对劲的黎洺皱了皱眉头，仔细扫了一眼弹窗上的文本。</p>
-            <p>&ldquo;活着的意义，是什么呢？&rdquo;</p>
-            <p>这条莫名其妙的弹窗，除了这段话之外没有任何其他东西，甚至选项都没有。</p>
-            <p>黎洺有点疑惑，自己明明在高速公路上，没有网络链接，不可能是网页广告，而平常自己坚持访问都是用的手机，电脑也不应该莫名其妙中病毒呀。</p>
-            <p>黎洺寻思着要不要直接无视那条弹窗直接关机，却发现电脑鼠标不受自己控制了，无论自己怎么触摸触屏版都没有一点反应。</p>
-            <p>&ldquo;卡住了？&rdquo;黎洺有点烦躁，索性直接合上电脑，让其强行黑屏休眠，将它放回电脑包晾一会儿。</p>
-            <p>站起身来伸了个懒腰，黎洺打了个哈欠，放松之后的身体舒服多了。</p>
-            <p>&ldquo;嗯&hellip;&hellip;快到了吗？&rdquo;在座位上昏昏欲睡的刘子姬看见站起来的黎洺，小声嘀咕问道。</p>
-            <p>&ldquo;看起来快到了，过了这座桥，再开一段应该就能到那个小镇了。&rdquo;</p>
-            <p>黎洺看了看车窗外面，眼前是宽阔的河流，远处衔接着大海，天空与海水相映成趣，万里无云，河流对面便是建在岛屿上的小镇，岛屿上的高山保留大量的树木绿植，房屋坐落有序，虽然天气热了点，但风景确实不错。</p>
-            <p>&ldquo;哎哎，你拉我一把&hellip;&hellip;我也要清醒清醒&hellip;&hellip;&rdquo;刘子姬迷迷糊糊地朝黎洺伸出手，黎洺一手握着车上的立杆，一手抓住刘子姬伸出的手，借力将她从座位上拉了起来。
-            </p>
-            <p>&ldquo;啊~终于要到了&hellip;&hellip;&rdquo;刘子姬擦了擦因为哈欠挤出的泪水，看了看手机，说道：&ldquo;这啥玩意儿&hellip;&hellip;怎么还关不掉啊&hellip;&hellip;&rdquo;
-            </p>
-            <p>黎洺眯着眼凝神欣赏窗外的景色，正午的日光是如此的耀眼，让他的眼前像是出现了一个小黑点。</p>
-            <p>黎洺以为是自己不小心盯久了太阳，闭上眼睛缓了缓，朝其他地方看去。</p>
-            <p>等等，不太对？</p>
-            <p>黎洺诧异地注意到小黑点越变越大，而且挣快速接近着他们。</p>
-            <p>草，特么的另外一条车道上有辆车朝他们冲过来了！</p>
-            <p>话还没来得及说出口，那辆黑色轿车狠狠撞到了大巴的侧身上，大巴司机拼尽办法想稳住车身，却没有停下大巴，大巴车就这么冲过桥身上另一旁的栏杆，直直地往河流坠去。</p>
-            <p>在受到撞击的那一刻，黎洺死死地抓住了车上的立杆，他伸出另一只手试图拉住离自己最近的刘子姬，但车身在空中的翻滚，让刘子姬的身体不受控制地朝其他地方摔去，他慌忙伸出手，却没能碰到刘子姬，用尽全力，只抓住了那块从刘子姬领口前滑出的玉佩。
-            </p>
-            <p>车身从几十千米的高度上坠入河流之中，强大的压力震碎了玻璃，水水流透过缺口迅速涌进了车厢。</p>
-            <p>在黎洺失去意识之前，他脑海留下的最后画面是刘子姬那错愕的脸庞和自己手中的玉佩。</p>
-            <p>被水淹没的大巴车厢内，大部分人因为猛烈翻滚受到的撞击而失去了意识，浸泡在水里，少数还在苦苦挣扎。</p>
-            <p>黎洺的身体躺倒在一旁，流进车厢的水即将没过他的口鼻，失去意识的他注意不到那块即将飘出他手心的玉佩正散发着淡淡的绿光。</p>
-            <p>待到整座车厢被水流彻底淹没之后，那些本因被水浸泡而坏掉的手机却都亮起了屏幕，同时显示着收到了一条新的短信。</p>
-            <p>&ldquo;活着的意义，是什么呢？&rdquo;</p>
+    <header id="gaodu">
+        <!-- 导航栏开始 -->
+        <div class="navbar">
+            <a href="#" class="log">
+                <div>
+                    <!-- logo图片由div 背景设置 -->
+                </div>
+            </a>
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">公告</a></li>
+                <li><a href="#">留言板</a></li>
+                <li><a href="#">关于本站</a></li>
+            </ul>
+            <div class="search">
+                <input type="text">
+                <button></button>
+            </div>
+        </div>
+    </header><!-- 导航栏结束 -->
+
+    <div id="zy-body">
+        <!-- 主要内容开始 -->
+        <div class="container">
+            <div id="games">
+                <!-- 作品内容开始 -->
+                <div class="playdiagram ">
+                    <!-- 轮播图开始 -->
+                    <ul>
+                        <li><img src="material/show.jpg" alt=""></li>
+                        <li><img src="material/hisui.jpg" alt=""></li>
+                        <li><img src="material/redumbrella.png" alt=""></li>
+                        <li><img src="material/saber.png" alt=""></li>
+
+                    </ul>
+                    <a href="javascript:;" class="arrow1 arrow"></a>
+                    <a href="javascript:;" class="arrow2 arrow"></a>
+                    <ol id="point">
+
+                    </ol>
+                </div>
+                <div class="game2 shadowradius">
+                    <h4>
+                        Mahōtsukai no Yoru <br>『魔法使之夜』
+                    </h4>
+                    <div class="tag-box1">
+                        <span><a href="#">无r18</a></span>
+                        <span><a href="#">2012</a></span>
+                        <span><a href="#">typemoon</a></span>
+                        <span><a href="#"></a></span>
+                    </div>
+                    <a href="#">
+                        <img class="game2-img" src="material/game2.png" alt="">
+                    </a>
+                    <p class="game-text">
+                        1980年代后半，正是繁华与活力的时代的末期。在地方都市三咲町，有传言说「在坡道上的房子里，住着两个魔女...
+                    </p>
+                    <a href="game/Mahōtsukai.html" class="game-button">
+                        点击查看
+                    </a>
+                </div>
+            </div>
+
+            <div class="right">
+                <!-- 登录，文章，排行 -->
+                <div class="setin shadowradius">
+                    <!-- 登入框 -->
+                    <form action="" autocomplete="on">
+                        <div class="setinbox">
+                            <img src="" alt="">
+                            <input class="input " type="text" placeholder="账号">
+                            <!-- 账号栏 -->
+
+                            <img src="" alt="">
+                            <input class="input " type="text" placeholder="密码">
+                            <!-- 密码栏 -->
+                        </div>
+                        <div class="loginbox">
+
+                            <input class="butt" type="submit" name="submit" value="登录">
+
+
+                            <a href="#">注册</a>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="talking shadowradius">
+
+                </div>
+            </div>
         </div>
     </div>
-    <div></div>
 </body>
 
 </html>
